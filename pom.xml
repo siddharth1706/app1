@@ -18,13 +18,7 @@
 		<app.runtime>4.4.0-20220221</app.runtime>
 		<mule.maven.plugin.version>3.5.4</mule.maven.plugin.version>
 	</properties>
-<distributionManagement>
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>localhost.localdomain-snapshots</name>
-       
-    </snapshotRepository>
-</distributionManagement>
+
 	
 
 	<build>
