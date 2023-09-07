@@ -37,9 +37,6 @@
 						<uri>https://anypoint.mulesoft.com</uri>
 						<muleVersion>4.4.0</muleVersion>
 						<applicationName>app-1</applicationName>
-						<environment>Sandbox</environment>
-						<applicationName></applicationName>
-						<deploymentType>cloudhub</deploymentType>
 						<muleVersion>4.4.0</muleVersion>
 						<username>${username}</username>
 						<password>${password}</password>
