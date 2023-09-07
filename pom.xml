@@ -22,7 +22,7 @@
     <snapshotRepository>
         <id>snapshots</id>
         <name>localhost.localdomain-snapshots</name>
-        <url>http://localhost:8081/artifactory/libs-snapshot-local</url>
+       
     </snapshotRepository>
 </distributionManagement>
 	
