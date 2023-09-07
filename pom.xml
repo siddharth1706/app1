@@ -16,7 +16,7 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
 		<app.runtime>4.4.0-20220221</app.runtime>
-		<mule.maven.plugin.version>3.5.4</mule.maven.plugin.version>
+		<mule.maven.plugin.version>3.8.0</mule.maven.plugin.version>
 	</properties>
 
 	
@@ -26,7 +26,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-clean-plugin</artifactId>
-				<version>3.0.0</version>
+				<version>3.2.0</version>
 			</plugin>
 			<plugin>
 				<groupId>org.mule.tools.maven</groupId>
@@ -46,6 +46,7 @@
 						<workerType>Micro</workerType>
 						<workers>1</workers>
 						<businessGroup>cg</businessGroup>
+						<objectStoreV2>true</objectStoreV2>
 					</cloudHubDeployment>
 					<!-- Ci Cd configuration for cloudhub END -->
 				</configuration>
