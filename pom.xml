@@ -69,7 +69,7 @@
 						<environment>${environment}</environment>
 						<workerType>Micro</workerType>
 						<workers>1</workers>
-						<businessGroupId>b07f2ca4-b55a-4f21-ad45-78f2f2e22200</businessGroupId>
+						<businessGroup>KPMG_KGS</businessGroup>
 						<objectStoreV2>true</objectStoreV2>
 					</cloudHubDeployment>
 					<!-- Ci Cd configuration for cloudhub END -->
