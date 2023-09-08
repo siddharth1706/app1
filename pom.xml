@@ -78,6 +78,15 @@
 		</plugins>
 	</build>
 
+	<distributionManagement>
+<repository>
+<id>Exchange2</id>
+<name>Anypoint Platform Exchange Repository</name>
+<url>https://maven.anypoint.mulesoft.com/api/v2/organizations/b07f2ca4-b55a-4f21-ad45-78f2f2e22200/maven</url>
+<layout>default</layout>
+</repository>
+</distributionManagement>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.mule.connectors</groupId>
