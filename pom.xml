@@ -28,7 +28,28 @@
 				<artifactId>maven-clean-plugin</artifactId>
 				<version>3.2.0</version>
 			</plugin>
-
+<plugin>
+<artifactId>exchange-mule-maven-plugin</artifactId>
+<groupId>org.mule.tools.maven</groupId>
+<version>0.0.17</version>
+<inherited>false</inherited>
+<executions>
+<execution>
+<id>validate</id>
+<phase>validate</phase>
+<goals>
+<goal>exchange-pre-deploy</goal>
+</goals>
+</execution>
+<execution>
+<id>deploy</id>
+<phase>deploy</phase>
+<goals>
+<goal>exchange-deploy</goal>
+</goals>
+</execution>
+</executions>
+</plugin>
 			
 			
 			<plugin>
