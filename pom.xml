@@ -119,10 +119,5 @@
 			</snapshots>
 		</pluginRepository>
 	</pluginRepositories>
- <distributionManagement>
-        <repository>
-              <id>myrepository</id>
-              <url>C:/Users/siddharth13/repo/</url>
-        </repository>
-      </distributionManagement>
+
 </project>
